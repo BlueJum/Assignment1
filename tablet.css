@@ -55,7 +55,7 @@ nav {
     text-align: center;
 }
 
-/* Hyperlink Elements - Touch-friendly padding for tablets */ 
+/* Hyperlink Elements - Touch-friendly padding for tablets */
 a {
     color: #F2E8C0;
     text-decoration: none;
@@ -82,4 +82,81 @@ footer {
 address {
     font-style: normal;
     margin-bottom: 8px;
+}
+
+article {
+    padding: 15px;
+}
+
+aside {
+    background-color: #E4D281;
+    float: right;
+    width: 35%;
+    /* Sized in fluid percentages for tablet screens */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #5F5D16;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+h2, h3 {
+    color: #040620;
+    margin-top: 0px;
+}
+
+p {
+    margin: 5px 0px;
+}
+
+/* Image and native video player styling */ 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    max-width: 100%;
+    border: 2px solid #040620;
+    box-shadow: 5px 5px 5px #5F5D16;
+    margin-top: 10px;
+}
+
+/* Form controls styling */ 
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #5F5D16;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #500C0C;
+    color: #F2E8C0;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #E4D281;
+    color: #040620;
 }
