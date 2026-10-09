@@ -29,18 +29,30 @@
         
         <!--Main content area using HTML5 semantic markup-->
         <article>
+           
             <aside>
                 <h3>About My Media</h3>
                 <p>Check out my profile photo and introductory video below to learn more about my background and interests.</p>
             </aside>
+            
             <h2>About Me</h2>
+            
+            <!--Biography section, profile picture is profile.jpg-->
             <section>
                 <h3>Biography</h3>
-                <p>Hello! My name is Archer Keshtkar Bagheri. I am a student studying Web and Scripting Programming. I enjoy developing modern web applications, working with semantic HTML5 elements, and building responsive user experiences.</p>
+                <img src="profile.jpg" alt="Profile photo" width="200">
+                <p>Hello! My name is Archer Keshtkar Bagheri. I am a student studying Web and Scripting Programming. I enjoy developing modern web applications with semantic HTML5 elements.</p>
             </section>
+            
+            <!--Embedded native video section-->
             <section>
                 <h3>Introductory Video</h3>
-                <p>Watch my short 45–60 second video introduction below:</p>
+                <p>Watch my short video introduction below:</p>
+                <video width="600" controls poster="poster.jpg">
+                    <source src="intro.mp4" type="video/mp4">
+                    <source src="intro.ogv" type="video/ogg">
+                    Your browser does not support HTML5 video.
+                </video>
             </section>
         </article>
 
