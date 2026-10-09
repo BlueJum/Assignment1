@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* Colour Palette: Colour 1: #040620 (Dark Navy) Colour 2: #500C0C (Dark Burgundy) Colour 3: #5F5D16 (Olive) Colour 4: #E4D281 (Gold) Colour 5: #F2E8C0 (Light Cream) */
+/* Base Resets */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: #040620;
+    
+    /* CSS3 Angle Linear Gradient background using Color 1 and Color 2 */
+    background: #040620;
+    background: -webkit-linear-gradient(135deg, #040620 0%, #500C0C 100%);
+    background: -moz-linear-gradient(135deg, #040620 0%, #500C0C 100%);
+    background: linear-gradient(135deg, #040620 0%, #500C0C 100%); min-height: 100vh; }
+    
+    /* Centered 960px Wrapper Container */
+    #wrapper {
+        width: 960px;
+        margin: 20px auto;
+        background-color: #F2E8C0;
+        border: 2px solid #E4D281;
+        border-radius: 8px;
+        box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.5);
+        
+        .clear {
+            clear: both;
+    }
