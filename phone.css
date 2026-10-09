@@ -9,22 +9,156 @@ body {
     padding: 0px;
     font-family: Verdana, Geneva, Arial, sans-serif;
     color: #040620;
-    /* CSS3 Angle Linear Gradient Background */ 
+    /* CSS3 Angle Linear Gradient Background */
     background: #040620;
     background: -moz-linear-gradient(135deg, #040620 0%, #500C0C 100%);
     background: -webkit-linear-gradient(135deg, #040620 0%, #500C0C 100%);
     background: linear-gradient(135deg, #040620 0%, #500C0C 100%);
 }
 
-/* Fluid 100% wrapper container for phones */ #wrapper {
+/* Fluid 100% wrapper container for phones */
+#wrapper {
     width: 100%;
-    /* Sized to 100% width to fit small mobile screens */ 
+    /* Sized to 100% width to fit small mobile screens */
     margin: 0px;
     background-color: #F2E8C0;
     border: none;
 }
 
+header {
+    background-color: #040620;
+    color: #F2E8C0;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #E4D281;
+}
+
+h1 {
+    margin: 0px;
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+}
+
+nav {
+    background-color: #500C0C;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hyperlink Elements - Stacked full-width block tap targets for mobile */
+a {
+    display: block;
+    color: #F2E8C0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px dotted #E4D281;
+}
+
+/* Hover/Active Pseudo-Class State for Mobile Links */
+a:hover {
+    color: #040620;
+    background-color: #E4D281;
+}
+
+article {
+    padding: 10px;
+}
+
+aside {
+    background-color: #E4D281;
+    float: none;
+    /* Floats removed for single-column mobile layout */ 
+    width: 100%;
+    margin: 10px 0px;
+    padding: 12px;
+    border: 1px solid #5F5D16;
+}
+
+section {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+h2,
+h3 {
+    color: #040620;
+    margin-top: 0px;
+}
+
+p {
+    margin: 5px 0px;
+}
+
+/* Image and native video player styling */ 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    max-width: 100%;
+    border: 2px solid #040620;
+    box-shadow: 3px 3px 3px #5F5D16;
+    margin-top: 10px;
+}
+
+/* Form controls styling */ 
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #5F5D16;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 100%;
+    /* Full-width buttons for easy tap targets on phones */ 
+    background-color: #500C0C;
+    color: #F2E8C0;
+    padding: 12px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #E4D281;
+    color: #040620;
+}
+
 /* Float termination class */
 .clear {
     clear: both;
+}
+
+/* Footer Section Styling \*/
+footer {
+    background-color: #040620;
+    color: #F2E8C0;
+    padding: 15px;
+    text-align: center;
+    border-top: 3px solid #E4D281;
+    clear: both;
+}
+
+address {
+    font-style: normal;
+    margin-bottom: 8px;
 }
