@@ -10,14 +10,13 @@ body {
     padding: 0px;
     font-family: Verdana, Geneva, Arial, sans-serif;
     color: #040620;
-    /* CSS3 Angle Linear Gradient background using Color 1 and Color 2 */
     background: #040620;
     background: -moz-linear-gradient(135deg, #040620 0%, #500C0C 100%);
     background: -webkit-linear-gradient(135deg, #040620 0%, #500C0C 100%);
     background: linear-gradient(135deg, #040620 0%, #500C0C 100%);
 }
 
-/* 2 Centered 960px Wrapper Container*/
+/* Centered 960px wrapper container */
 #wrapper {
     width: 960px;
     margin-left: auto;
