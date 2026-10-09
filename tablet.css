@@ -9,7 +9,7 @@ body {
     padding: 0px;
     font-family: Verdana, Geneva, Arial, sans-serif;
     color: #040620;
-    /* CSS3 Angle Linear Gradient Background */ 
+    /* CSS3 Angle Linear Gradient Background */
     background: #040620;
     background: -moz-linear-gradient(135deg, #040620 0%, #500C0C 100%);
     background: -webkit-linear-gradient(135deg, #040620 0%, #500C0C 100%);
@@ -31,4 +31,55 @@ body {
 /* Float termination class */
 .clear {
     clear: both;
+}
+
+/* Header & global navigation styling */
+
+header {
+    background-color: #040620;
+    color: #F2E8C0;
+    padding: 18px;
+    text-align: center;
+    border-bottom: 3px solid #E4D281;
+}
+
+h1 {
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+nav {
+    background-color: #500C0C;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Hyperlink Elements - Touch-friendly padding for tablets */ 
+a {
+    color: #F2E8C0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 14px;
+}
+
+/* Hover Pseudo-Class state for hyperlinks */
+a:hover {
+    color: #040620;
+    background-color: #E4D281;
+}
+
+/* Footer section styling */
+footer {
+    background-color: #040620;
+    color: #F2E8C0;
+    padding: 18px;
+    text-align: center;
+    border-top: 3px solid #E4D281;
+    clear: both;
+}
+
+address {
+    font-style: normal;
+    margin-bottom: 8px;
 }
