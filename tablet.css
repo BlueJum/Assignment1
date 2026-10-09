@@ -28,10 +28,6 @@ body {
     border: 2px solid #E4D281;
 }
 
-/* Float termination class */
-.clear {
-    clear: both;
-}
 
 /* Header & global navigation styling */
 
@@ -69,20 +65,6 @@ a:hover {
     background-color: #E4D281;
 }
 
-/* Footer section styling */
-footer {
-    background-color: #040620;
-    color: #F2E8C0;
-    padding: 18px;
-    text-align: center;
-    border-top: 3px solid #E4D281;
-    clear: both;
-}
-
-address {
-    font-style: normal;
-    margin-bottom: 8px;
-}
 
 article {
     padding: 15px;
@@ -159,4 +141,24 @@ input[type="submit"]:hover,
 input[type="reset"]:hover {
     background-color: #E4D281;
     color: #040620;
+}
+
+/* Float termination class */
+.clear {
+    clear: both;
+}
+
+/* Footer section styling */
+footer {
+    background-color: #040620;
+    color: #F2E8C0;
+    padding: 18px;
+    text-align: center;
+    border-top: 3px solid #E4D281;
+    clear: both;
+}
+
+address {
+    font-style: normal;
+    margin-bottom: 8px;
 }
