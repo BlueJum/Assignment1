@@ -13,23 +13,90 @@
 <body>
     <!-- Main wrapper container -->
     <div id="wrapper">
-
-        <!--Header section with global navigation-->
+        
+        <!-- Header section with global navigation -->
         <header>
-            <h1>My Personal Portfolio</h1>
+            <h1>My Personal portfolio</h1>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About Me</a>
-                <a href="projects.html">Projects</a>
+                <a href="index.html">Home</a> |
+                <a href="about.html">About Me</a> |
+                <a href="projects.html">Projects</a> |
                 <a href="contact.html">Contact Me</a>
             </nav>
         </header>
+
+        <!-- Main content area using HTML5 semantic markup -->
+        <article>
+            
+            <aside>
+                <h3>Get in touch</h3>
+                <p>Feel free to send me a message regarding project collaborations, academic inquiries, or networking opportunities.</p>
+            </aside>
+
+            <h2>Contact me</h2>
+            
+            <!--Creating a contact form-->
+            <section>
+                <form action="mailto:archer.keshtkarbagheri@ontariotechu.net" method="post" enctype="text/plain">
+                    
+                    <!-- Contact Details Fieldset -->
+                    <fieldset>
+                        <legend>Contact information</legend>
+                        
+                        <p>
+                            <label for="name">Your Name:</label><br>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </p>
+
+                        <p>
+                            <label for="email">Your Email address:</label><br>
+                            <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                        </p>
+
+                        <p>
+                            <label for="phone">Phone number:</label><br>
+                            <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+                        </p>
+
+                        <p>
+                            <label for="subject">Reason for contact:</label><br>
+                            <select id="subject" name="subject">
+                                <option value="general">General inquiry</option>
+                                <option value="collaboration">Project collaboration</option>
+                                <option value="academic">Academic inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </p>
+                    </fieldset>
+
+                    <!-- Message Fieldset -->
+                    <fieldset>
+                        <legend>Your message</legend>
+                        
+                        <p>
+                            <label for="comments">Comments / Questions:</label><br>
+                            <textarea id="comments" name="comments" rows="6" cols="50" placeholder="Type your message here..." required></textarea>
+                        </p>
+                    </fieldset>
+
+                    <!-- Form Action Buttons -->
+                    <p>
+                        <input type="submit" value="Send Message">
+                        <input type="reset" value="Reset Form">
+                    </p>
+
+                </form>
+            </section>
+        </article>
+
+        <!-- Footer Section -->
         <footer>
             <address>
                 <p>Contact: <a href="mailto:archer.keshtkarbagheri@ontariotechu.net">archer.keshtkarbagheri@ontariotechu.net</a></p>
             </address>
             <p>© 2026 Archer Keshtkar Bagheri. All rights reserved.</p>
         </footer>
+
     </div>
 </body>
 </html>
