@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: #040620;
+    /* CSS3 Angle Linear Gradient Background */ 
+    background: #040620;
+    background: -moz-linear-gradient(135deg, #040620 0%, #500C0C 100%);
+    background: -webkit-linear-gradient(135deg, #040620 0%, #500C0C 100%);
+    background: linear-gradient(135deg, #040620 0%, #500C0C 100%);
+}
+
+/* Fluid wrapper container for tablets */
+#wrapper {
+    width: 95%;
+    /* Sized in percentages for fluid tablet layout */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #F2E8C0;
+    border: 2px solid #E4D281;
+}
+
+/* Float termination class */
+.clear {
+    clear: both;
+}
