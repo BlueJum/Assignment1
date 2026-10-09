@@ -1,23 +1,23 @@
 @charset "UTF-8";
-/* Colour Palette: Colour 1: #040620 (Dark Navy) Colour 2: #500C0C (Dark Burgundy) Colour 3: #5F5D16 (Olive) Colour 4: #E4D281 (Gold) Colour 5: #F2E8C0 (Light Cream) */
-/* Base Resets */
+
+
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0px;
     padding: 0px;
     font-family: Verdana, Geneva, Arial, sans-serif;
     color: #040620;
-    
     /* CSS3 Angle Linear Gradient background using Color 1 and Color 2 */
     background: #040620;
-    background: -webkit-linear-gradient(135deg, #040620 0%, #500C0C 100%);
     background: -moz-linear-gradient(135deg, #040620 0%, #500C0C 100%);
-    background: linear-gradient(135deg, #040620 0%, #500C0C 100%); min-height: 100vh;
+    background: -webkit-linear-gradient(135deg, #040620 0%, #500C0C 100%);
+    background: linear-gradient(135deg, #040620 0%, #500C0C 100%);
 }
-    
-/* Centered 960px Wrapper Container */
+
+/* 2 Centered 960px Wrapper Container*/
 #wrapper {
     width: 960px;
     margin-left: auto;
@@ -27,7 +27,135 @@ body {
     background-color: #F2E8C0;
     border: 2px solid #E4D281;
 }
-/*clearing float class*/
+
+/* Header & global navigation styling */ 
+header {
+    background-color: #040620;
+    color: #F2E8C0;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #E4D281;
+}
+
+h1 {
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 2.2em;
+}
+
+nav {
+    background-color: #500C0C;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Hyperlink Elements */
+a {
+    color: #F2E8C0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 14px;
+}
+
+/* Hover Pseudo-Class State for Hyperlinks */
+a:hover {
+    color: #040620;
+    background-color: #E4D281;
+}
+
+/*Article, section, floated aside sidebar layout */ 
+article {
+    padding: 20px;
+}
+
+aside {
+    background-color: #E4D281;
+    float: right;
+    width: 280px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #5F5D16;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+h2, h3 {
+    color: #040620;
+    margin-top: 0px;
+}
+
+p {
+    margin: 5px 0px;
+}
+
+/* Image and native video player styling */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    max-width: 550px;
+    border: 2px solid #040620;
+    box-shadow: 5px 5px 5px #5F5D16;
+    margin-top: 10px;
+}
+
+/* Form controls styling */ 
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #5F5D16;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #500C0C;
+    color: #F2E8C0;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #E4D281;
+    color: #040620;
+}
+
+/* Float termination class */ 
 .clear {
     clear: both;
+}
+
+/* Footer section styling */ 
+footer {
+    background-color: #040620;
+    color: #F2E8C0;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #E4D281;
+    clear: both;
+}
+
+address {
+    font-style: normal;
+    margin-bottom: 8px;
 }
