@@ -52,5 +52,3 @@ The color scheme was generated using Adobe Color (https://color.adobe.com/create
 
 Code Sources and Citations
   Lecture Material: All HTML5 markup, semantic tags, form structures, media queries, and float-clearing techniques were written based on lectures 1-4.
-  Personal coding knowledge
-  External Code: 0% external code used from third-party frameworks or websites.
